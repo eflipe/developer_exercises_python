@@ -94,7 +94,6 @@ def iterate_matrix(matrix):
     No se encontraron secuencias de 4 números
     '''
 
-
     print("Matriz:")
     pprint.pprint(matrix)
 
