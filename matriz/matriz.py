@@ -94,7 +94,6 @@ def iterate_matrix(matrix):
     No se encontraron secuencias de 4 números
     '''
 
-
     print("Matriz:")
     pprint.pprint(matrix)
 
@@ -113,10 +112,6 @@ def iterate_matrix(matrix):
 
                 if current_number_row == plus_prev_number_row:  # checks rows
                     counter_rows += 1
-                    # print("current_number_row", current_number_row)
-                    # print("plus_prev_number_row", plus_prev_number_row)
-                    #
-                    # print("counter_rows", counter_rows)
                     if counter_rows == 3:
                         y_init = y - counter_rows
                         if y_init < 0:
@@ -129,17 +124,8 @@ def iterate_matrix(matrix):
                 else:
                     counter_rows = 0
 
-                # print("x: col", x)
-                # print("y: ", y)
-                # print("current_number_col", current_number_col)
-                # print("plus_prev_number_col", plus_prev_number_col)
                 if current_number_col == plus_prev_number_col:  # checks cols
                     counter_cols += 1
-                    # print("X: ", x)
-                    # print("Y: ", y)
-                    # print("current_number_col: ", current_number_col)
-                    # print("plus_prev_number_col: ", plus_prev_number_col)
-                    # print("Contador: ", counter_cols)
                     if counter_cols == 3:
                         y_init = y - counter_cols
 
@@ -160,5 +146,3 @@ def iterate_matrix(matrix):
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-    # matriz = create_matrix()
-    # iterate_matrix(matriz)
