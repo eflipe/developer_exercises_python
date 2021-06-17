@@ -21,9 +21,9 @@ import math
 class Circulo:
     '''
     Dado un radio, se calcula el área y perímetro de un círculo.
-    Si el radio es un número menor o igual a cero, devulve un ValueError con un
+    Si el radio es un número menor o igual a cero, devuelve un ValueError con un
     mensaje.
-    Al multiplar el objeto Circulo por un número, devuelve un nuevo
+    Al multiplicar el objeto Circulo por un número, devuelve un nuevo
     objeto con el radio multiplicado por ese número.
 
     >>> obj_circulo = Circulo(0)
